@@ -1,6 +1,6 @@
 const mongoose = require("../bin/mongodb");
 const Schema= mongoose.Schema;
-
+//models
 const mainSchema= new Schema({
     name:{
         type: String,

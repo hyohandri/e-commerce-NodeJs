@@ -1,7 +1,9 @@
 const mongoose = require('../bin/mongodb');
 const bcrypt = require('bcrypt');
 const Schema = mongoose.Schema;
+//user models
 const MainSchema = new Schema({
+
     name:{
         type: String,
         trim: true

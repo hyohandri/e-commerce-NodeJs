@@ -10,7 +10,7 @@ const usersRouter = require('./routes/users');
 const productsRouter = require('./routes/products');
 const app = express();
 
-// set's
+// set's values
 app.set('secretKey','pwa2020final');
 app.set('views', path.join(__dirname, 'views'));
 

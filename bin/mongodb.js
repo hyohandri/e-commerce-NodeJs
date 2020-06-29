@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//conection mongodb
 mongoose.connect('mongodb://localhost/PWA', {useNewUrlParser: true,  useCreateIndex: true,useUnifiedTopology: true}, function(error){
    if(error){
       throw error; 
